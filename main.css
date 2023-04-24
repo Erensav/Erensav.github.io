@@ -1,0 +1,119 @@
+/* navbar */
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a0a0a;
+}
+.nav-bar a{
+    justify-content:space-between;
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    color: gray;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.nav-bar a:after{
+    content: "";
+    position: absolute;
+    background-color:white;
+    height:3px ;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    transition: 0.7s;    
+}
+.nav-bar a:hover{
+    color: white;    
+}
+.nav-bar a:hover:after{
+    width: 100%;    
+}
+/* navbar end */
+/* content */
+.resim{
+	background-color: aqu;
+}
+.resim a{
+	justify-content: center;
+	display: flex;
+	align-items: end;
+	
+}
+.resim h3{
+	justify-content: center;
+	display: flex;
+	align-items: end;
+	
+}
+.resim ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.yazi{
+	display: flex;
+	
+}
+.yazi .yazi1 h3{
+	justify-content: center;
+	display: flex;
+}
+.yazi .yazi1 p{
+	justify-content: center;
+	display: flex;
+}
+
+/* content end*/
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+.ilet ul{
+    list-style: none;
+    display: flex;
+}
+.ilet .ulas  h2{
+    display: flex;
+    justify-content: center;    
+    
+}
+.ilet .ulas  p{
+    display: flex;
+    justify-content: center;
+}
+.ilet .ulas ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+.ilet .linkler ul{
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+.projje .baslik p{
+    display: flex;
+    justify-content: center;
+}
